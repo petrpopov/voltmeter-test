@@ -5,6 +5,14 @@
     line-height: 1.428;
 }
 
+.text {
+    color: #c8c8c8;
+}
+
+.text-strong {
+    color: #f3f3f3;
+}
+
 .strikethrough {
     position: relative;
 }
@@ -27,6 +35,14 @@
     transform: rotate(-45deg);
 }
 
+.page-header {
+    border-bottom: 1px solid #86878c;
+}
+
+.margin-row {
+    margin-top: 2%;
+}
+
 #marketing-text h1 {
     margin-bottom: 5px;
 }
@@ -46,7 +62,7 @@ hr {
 
 .device {
     margin-top: 1%;
-    background: url(../img/voltmeter_empty_650.png) no-repeat;
+    background: url(../img/voltmeter_empty_650_490.png) no-repeat;
     width: 650px;
     height: 490px;
     background-size: auto;

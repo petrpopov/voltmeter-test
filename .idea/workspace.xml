@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff208df-67ac-4e5b-9abe-7de393352e38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/pizdec.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_empty_650_490.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/notify.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/voltmeter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/voltmeter_650.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pizdec.js" afterPath="$PROJECT_DIR$/js/pizdec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -75,35 +85,31 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="14" selection-start="4901" selection-end="4901" vertical-scroll-proportion="-12.777778" vertical-offset="1293" max-vertical-offset="1962">
-              <folding />
+            <state line="132" column="54" selection-start="6960" selection-end="6960" vertical-scroll-proportion="-17.444445" vertical-offset="1905" max-vertical-offset="2862">
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme-alizarin.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/theme-alizarin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="318" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pizdec.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pizdec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/pizdec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="33" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.0" vertical-offset="1235" max-vertical-offset="1944">
+            <state line="149" column="79" selection-start="4648" selection-end="4648" vertical-scroll-proportion="0.91537374" vertical-offset="2033" max-vertical-offset="3816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="47" selection-start="294" selection-end="294" vertical-scroll-proportion="0.3554302" vertical-offset="90" max-vertical-offset="4482">
-              <folding />
+            <state line="8" column="19" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4770">
+              <folding>
+                <marker date="1389038493000" expanded="true" signature="85:108" placeholder="{...}" />
+                <marker date="1389038493000" expanded="true" signature="567:608" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,13 +130,16 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$USER_HOME$/Downloads/products-WB00G9306/HTML/index-variation1.html" />
-        <option value="$PROJECT_DIR$/js/pizdec.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/pizdec.js" />
       </list>
     </option>
   </component>
@@ -233,20 +242,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voltmeter-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voltmeter-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -268,9 +263,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
@@ -517,12 +512,17 @@
       <updated>1389008737472</updated>
       <workItem from="1389008753126" duration="33000" />
       <workItem from="1389008788935" duration="16316000" />
-      <workItem from="1389027400024" duration="5762000" />
+      <workItem from="1389027400024" duration="14147000" />
     </task>
+    <task id="LOCAL-00001" summary="some changes">
+      <created>1389033239405</created>
+      <updated>1389033239405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22111000" />
+    <option name="totallyTimeSpent" value="30496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="806" extended-state="6" />
@@ -541,12 +541,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -567,6 +568,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -579,14 +582,19 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="16" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="2772">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="141" column="12" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="2538" max-vertical-offset="3798">
-          <folding />
+          <folding>
+            <marker date="1389038493000" expanded="true" signature="85:108" placeholder="{...}" />
+            <marker date="1389038493000" expanded="true" signature="567:608" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,21 +612,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/voltmeter.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-2.0.3.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/pizdec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="33" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.0" vertical-offset="1235" max-vertical-offset="1944">
           <folding />
         </state>
       </provider>
@@ -630,23 +626,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="22" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.33286318" vertical-offset="376" max-vertical-offset="2538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/theme-alizarin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="318" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
+        <state line="14" column="25" selection-start="318" selection-end="324" vertical-scroll-proportion="0.3554302" vertical-offset="0" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/voltmeter_empty_650.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/voltmeter_empty_650_490.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4770">
+          <folding>
+            <marker date="1389038493000" expanded="true" signature="85:108" placeholder="{...}" />
+            <marker date="1389038493000" expanded="true" signature="567:608" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/notify.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="14" selection-start="4901" selection-end="4901" vertical-scroll-proportion="-12.777778" vertical-offset="1293" max-vertical-offset="1962">
-          <folding />
+        <state line="132" column="54" selection-start="6960" selection-end="6960" vertical-scroll-proportion="-17.444445" vertical-offset="1905" max-vertical-offset="2862">
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/pizdec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="294" selection-end="294" vertical-scroll-proportion="0.3554302" vertical-offset="90" max-vertical-offset="4482">
+        <state line="149" column="79" selection-start="4648" selection-end="4648" vertical-scroll-proportion="0.91537374" vertical-offset="2033" max-vertical-offset="3816">
           <folding />
         </state>
       </provider>

@@ -5,6 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta property="og:title" content="Пиздецометр" />
+    <meta property="og:description" content="Легкий и веселый способ поделиться со всем миром информацией, о том, что у вас все плохо. Или хорошо." />
+    <meta property="og:url" content="www.pizdecometr.ru" />
+    <meta property="og:image" content="www.pizdecometr.ru" />
+
+    <meta name="title" content="Пиздецометр" />
+    <meta name="description" content="Легкий и веселый способ поделиться со всем миром информацией, о том, что у вас все плохо. Или хорошо." />
+    <link rel="image_src" href="www.pizdecometr.ru" />
+
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,13 +31,15 @@
 
     <!-- theme -->
     <link href="css/theme-dark.css" rel="stylesheet" media="screen">
-    <link href="css/theme-alizarin.css" rel="stylesheet" media="screen" id="swatches">
+    <link href="css/theme-alizarin.css" rel="stylesheet" media="screen">
 
     <!-- My custom stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
     <script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="js/notify.min.js" type="text/javascript"></script>
 
     <!-- Main logic -->
     <script src="js/pizdec.js" type="text/javascript"></script>
@@ -38,12 +50,15 @@
     <div class="container">
         <div class="row">
 
-            <section id="marketing-text">
+            <!--section id="marketing-text">
                 <div class="col-md-12 col-sm-12">
                     <h1>Пиздецометр</h1>
                     <h3>Потому что нам <span class="strikethrough">не</span> все равно!</h3>
-                </div><!--12-->
-            </section><!--/marketing-text-->
+                </div>
+            </section-->
+            <div class="page-header">
+                <h1>Пиздецометр <small>Потому что нам <span class="strikethrough">не</span> все равно!</small></h1>
+            </div>
         </div>
         <div class="row">
 
@@ -53,7 +68,7 @@
                 </p>
                 <p class="text-p">
                     На работе дедлайн? Жена - злобная сука? Разбил машину? Муж изменил с подругой? Теперь есть легкий и веселый способ пожаловаться друзьям на все это,
-                    не вдаваясь в скучные и длинные подробности вашей унылой жизни! Просто укажите на приборе нужные уровень и понажимайте
+                    не вдаваясь в скучные и длинные подробности вашей унылой жизни! Просто укажите на приборе нужный уровень и понажимайте
                     там внизу на всякие кнопочки шаринга. И пусть весь мир узнает!
                 </p>
                 <p class="text-p">
@@ -93,12 +108,47 @@
 
         <div class="row">
             <div class="col-md-offset-9">
-                <button class="btn btn-lg btn-theme device-share"><span class="glyphicon glyphicon-share-alt"></span> Рассказать!</button>
+                <button id="resultsShare" class="btn btn-lg btn-theme device-share"><span class="glyphicon glyphicon-share-alt"></span> Рассказать!</button>
             </div>
         </div>
+
+
+        <div id="results" class="row margin-row" style="display: none;">
+            <hr/>
+
+            <div class="col-md-8 col-md-offset-5">
+                <div class="media">
+                    <span class="pull-left" href="#">
+                        <img id="pizdecCustomImage" class="media-object" width="200px" src="img/voltmeter_empty_650_490.png" alt="...">
+                    </span>
+                    <div class="media-body">
+                        <h4 class="media-heading">Ваш личный пиздецометр</h4>
+                        <div class="media">
+                            <p class="text-p">
+                                Поздравляем!
+                                <span id="messageBefore">В вашей жизни</span>
+                                <span id="messageAdd"></span>
+                                <strong id="messageType" class="text-strong">полный пиздец</strong> !
+                                <span id="messageAfter"></span>
+                                <span id="messageLast">Это очень хорошо. Или нет. Нам все равно.</span>
+                            </p>
+                            <p class="text-p">Расскажите же скорее всем об этом:</p>
+
+
+                            <div class="pluso" data-background="transparent" data-options="medium,square,line,horizontal,counter,theme=05" data-services="facebook,twitter,vkontakte,google,livejournal,odnoklassniki" data-user="1262715342"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <hr/>
+            <footer>
+                <p class="pull-left"><small>&copy; 2014 <a class="text" target="_blank" href="https://www.facebook.com/popov.petr">Petr Popov</a></small></p>
+            </footer>
+        </div>
+
     </div>
-
-
-
 </body>
 </html>
