@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ff208df-67ac-4e5b-9abe-7de393352e38" name="Default" comment="text and image changes">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pizdec.js" afterPath="$PROJECT_DIR$/js/pizdec.js" />
+    <list default="true" id="8ff208df-67ac-4e5b-9abe-7de393352e38" name="Default" comment="messages">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="voltmeter-test.iws" />
@@ -80,23 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pizdec.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pizdec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/pizdec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="38" selection-start="4228" selection-end="4228" vertical-scroll-proportion="0.6868829" vertical-offset="2015" max-vertical-offset="3924">
+            <state line="123" column="30" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.0" vertical-offset="2015" max-vertical-offset="3924">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="19" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4770">
-              <folding>
-                <marker date="1389038493000" expanded="true" signature="85:108" placeholder="{...}" />
-                <marker date="1389038493000" expanded="true" signature="567:608" placeholder="{...}" />
-              </folding>
+            <state line="81" column="19" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.583921" vertical-offset="1044" max-vertical-offset="4788">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,9 +119,9 @@
     <option name="changedFiles">
       <list>
         <option value="$USER_HOME$/Downloads/products-WB00G9306/HTML/index-variation1.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/pizdec.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -502,7 +497,7 @@
       <updated>1389008737472</updated>
       <workItem from="1389008753126" duration="33000" />
       <workItem from="1389008788935" duration="16316000" />
-      <workItem from="1389027400024" duration="14768000" />
+      <workItem from="1389027400024" duration="15188000" />
     </task>
     <task id="LOCAL-00001" summary="some changes">
       <created>1389033239405</created>
@@ -512,11 +507,15 @@
       <created>1389041868809</created>
       <updated>1389041868809</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="messages">
+      <created>1389042475856</created>
+      <updated>1389042475856</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31117000" />
+    <option name="totallyTimeSpent" value="31537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="806" extended-state="6" />
@@ -566,7 +565,8 @@
     </option>
     <MESSAGE value="some changes" />
     <MESSAGE value="text and image changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="text and image changes" />
+    <MESSAGE value="messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="messages" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -589,10 +589,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="141" column="12" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="2538" max-vertical-offset="3798">
-          <folding>
-            <marker date="1389038493000" expanded="true" signature="85:108" placeholder="{...}" />
-            <marker date="1389038493000" expanded="true" signature="567:608" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -648,16 +645,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4770">
-          <folding>
-            <marker date="1389038493000" expanded="true" signature="85:108" placeholder="{...}" />
-            <marker date="1389038493000" expanded="true" signature="567:608" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/notify.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="696">
@@ -676,7 +663,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/pizdec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="38" selection-start="4228" selection-end="4228" vertical-scroll-proportion="0.6868829" vertical-offset="2015" max-vertical-offset="3924">
+        <state line="123" column="30" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.0" vertical-offset="2015" max-vertical-offset="3924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="19" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.583921" vertical-offset="1044" max-vertical-offset="4788">
           <folding />
         </state>
       </provider>
