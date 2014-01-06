@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ff208df-67ac-4e5b-9abe-7de393352e38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/voltmeter_empty_650_490.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/notify.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/voltmeter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/voltmeter_650.png" afterPath="" />
+    <list default="true" id="8ff208df-67ac-4e5b-9abe-7de393352e38" name="Default" comment="text and image changes">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pizdec.js" afterPath="$PROJECT_DIR$/js/pizdec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="voltmeter-test.iws" />
@@ -85,7 +72,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="54" selection-start="6960" selection-end="6960" vertical-scroll-proportion="-17.444445" vertical-offset="1905" max-vertical-offset="2862">
+            <state line="129" column="54" selection-start="6706" selection-end="6718" vertical-scroll-proportion="-15.444445" vertical-offset="1905" max-vertical-offset="2898">
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -96,7 +83,7 @@
       <file leaf-file-name="pizdec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/pizdec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="79" selection-start="4648" selection-end="4648" vertical-scroll-proportion="0.91537374" vertical-offset="2033" max-vertical-offset="3816">
+            <state line="139" column="38" selection-start="4228" selection-end="4228" vertical-scroll-proportion="0.6868829" vertical-offset="2015" max-vertical-offset="3924">
               <folding />
             </state>
           </provider>
@@ -260,6 +247,9 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -512,17 +502,21 @@
       <updated>1389008737472</updated>
       <workItem from="1389008753126" duration="33000" />
       <workItem from="1389008788935" duration="16316000" />
-      <workItem from="1389027400024" duration="14147000" />
+      <workItem from="1389027400024" duration="14768000" />
     </task>
     <task id="LOCAL-00001" summary="some changes">
       <created>1389033239405</created>
       <updated>1389033239405</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="text and image changes">
+      <created>1389041868809</created>
+      <updated>1389041868809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30496000" />
+    <option name="totallyTimeSpent" value="31117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="806" extended-state="6" />
@@ -565,11 +559,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="text and image changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="text and image changes" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -669,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="54" selection-start="6960" selection-end="6960" vertical-scroll-proportion="-17.444445" vertical-offset="1905" max-vertical-offset="2862">
+        <state line="129" column="54" selection-start="6706" selection-end="6718" vertical-scroll-proportion="-15.444445" vertical-offset="1905" max-vertical-offset="2898">
           <folding>
             <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -678,11 +676,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/pizdec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="79" selection-start="4648" selection-end="4648" vertical-scroll-proportion="0.91537374" vertical-offset="2033" max-vertical-offset="3816">
+        <state line="139" column="38" selection-start="4228" selection-end="4228" vertical-scroll-proportion="0.6868829" vertical-offset="2015" max-vertical-offset="3924">
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>voltmeter-test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

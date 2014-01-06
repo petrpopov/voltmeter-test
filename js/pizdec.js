@@ -7,6 +7,7 @@ $(function () {
     var $results = $('#results');
     var $pizdecCustomImage = $('#pizdecCustomImage');
 
+    var $messageFirst = $('#messageFirst');
     var $messageBefore = $('#messageBefore');
     var $messageAdd = $('#messageAdd');
     var $messageType = $('#messageType');
@@ -93,7 +94,7 @@ $(function () {
                 return;
             }
             else {
-                $resultsShareButton.trigger('notify-hide');
+                $('.notifyjs-bootstrap-base').hide();
             }
 
             changeFinalMessages();
@@ -117,6 +118,7 @@ $(function () {
             case 0:
             case 1:
             case 2:
+                $messageFirst.text("Поздравляем!");
                 $messageAfter.text("Что-то не очень в это верится.")
                 $messageBefore.text("В вашей жизни");
                 $messageAdd.text("все");
@@ -124,26 +126,30 @@ $(function () {
                 break;
             case 3:
             case 4:
+                $messageFirst.text("Мдее..");
                 $messageBefore.text("В вашей жизни");
                 $messageAdd.text("все");
                 $messageAfter.text("");
                 $messageLast.text("Это очень хорошо. Или нет. Нам все равно.");
                 break;
             case 5:
+                $messageFirst.text("Мдее..");
                 $messageBefore.text("В вашей жизни");
                 $messageAdd.text("все как-то");
                 $messageAfter.text("");
-                $messageLast.text("Это очень хорошо. Или нет. Нам все равно.");
+                $messageLast.text("Это печально. Или нет. Нам все равно.");
                 break;
             case 6:
             case 7:
             case 8:
+                $messageFirst.text("Воу-воу, палехче!");
                 $messageBefore.text("У вас в жизни творится");
-                $messageAdd.text("");
+                $messageAdd.text("какой-то");
                 $messageAfter.text("");
                 $messageLast.text("Это очень хорошо. Или нет. Нам все равно.");
                 break;
-            default :
+            default:
+                $messageFirst.text("Поздравляем!");
                 $messageBefore.text("В вашей жизни");
                 $messageAdd.text("");
                 $messageAfter.text("");
