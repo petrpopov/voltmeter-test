@@ -1,0 +1,205 @@
+
+.text-p {
+    color: #c8c8c8;
+    font-size: 16px;
+    line-height: 1.428;
+}
+
+h3 {
+    color: #c8c8c8;
+}
+
+hr {
+    color: #86878c;
+    background-color: #86878c;
+    border-color: #86878c;
+}
+
+
+.device {
+    margin-top: 1%;
+    background: url(../img/voltmeter_empty_650.png) no-repeat;
+    width: 650px;
+    height: 490px;
+    background-size: auto;
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    position: relative;
+}
+
+.device-label {
+    float: left;
+    position: absolute;
+}
+
+.label0 {
+    -webkit-transform: rotate(46deg);
+    -moz-transform: rotate(46);
+    -ms-transform: rotate(46deg);
+    -o-transform: rotate(46deg);
+    transform: rotate(46deg);
+
+    left: 20.8%;
+    top: 57.3%;
+}
+
+.label1 {
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+
+    left: 24%;
+    top: 47.5%;
+}
+
+.label2 {
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+
+    left: 32.1%;
+    top: 40.3%;
+}
+
+.label3 {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+
+    left: 39.8%;
+    top: 42%;
+}
+
+.label4 {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+
+    left: 49.5%;
+    top: 38%;
+}
+
+.label5 {
+    -webkit-transform: rotate(17deg);
+    -moz-transform: rotate(17deg);
+    -ms-transform: rotate(17deg);
+    -o-transform: rotate(17deg);
+    transform: rotate(17deg);
+
+    left: 55%;
+    top: 44%;
+}
+
+.label6 {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+
+    left: 65%;
+    top: 44%;
+}
+
+.label7 {
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    transform: rotate(35deg);
+
+    left: 68%;
+    top: 52%;
+}
+
+.label8 {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+    left: 70.2%;
+    top: 57.3%;
+}
+
+.arrow {
+    width: 220px;
+    height: 2px;
+    background: #be0005;
+
+    float: left;
+    position: absolute;
+
+    left: 15%;
+    top: 88%;
+
+    transform-origin:100% 40%;
+    -ms-transform-origin:100% 40%; /* IE 9 */
+    -webkit-transform-origin:100% 40%; /* Safari and Chrome */
+    -moz-transform-origin:100% 40%; /* Firefox */
+    -o-transform-origin:100% 40%; /* Opera */
+}
+
+
+.radio0 {
+    position: relative;
+    left: 30%;
+    top: 35.3%;
+}
+
+.radio1 {
+    position: relative;
+    left: 32.1%;
+    top: 32.8%;
+}
+
+.radio2 {
+    position: relative;
+    left: 35.1%;
+    top: 28.9%;
+}
+
+.radio3 {
+    position: relative;
+    left: 39%;
+    top: 28.3%;
+}
+
+.radio4 {
+    position: relative;
+    left: 42.65%;
+    top: 26.85%;
+}
+
+.radio5 {
+    position: relative;
+    left: 45.75%;
+    top: 29.3%;
+}
+
+.radio6 {
+    position: relative;
+    left: 49%;
+    top: 30.7%;
+}
+
+.radio7 {
+    position: relative;
+    left: 50.4%;
+    top: 34.5%;
+}
+
+.radio8 {
+    position: relative;
+    left: 52.5%;
+    top: 37%;
+}
