@@ -17,68 +17,23 @@
 
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Lato Google Font - For Theme -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <!-- Default Theme Style -->
-    <link href="css/theme-dark.css" rel="stylesheet" media="screen" id="skin">
-    <!-- Theme Color  options - alizarin.css, belize-hole.css, carrot.css, turquoise.css, wisteria.css-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- theme -->
+    <link href="css/theme-dark.css" rel="stylesheet" media="screen">
     <link href="css/theme-alizarin.css" rel="stylesheet" media="screen" id="swatches">
-    <!-- Pacifico Google Font - For Demo Purpose only -->
-    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
-
+    <!-- My custom stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- Main logic -->
+    <script src="js/pizdec.js" type="text/javascript"></script>
 </head>
 
 <body>
-
-<script type="text/javascript">
-    $(function () {
-        var $arrow = $("#arrow");
-        rotate(40);
-
-        function rotate(degree) {
-            $arrow.css({
-                WebkitTransform: 'rotate(' + degree + 'deg)'
-            });
-            $arrow.css({
-                '-moz-transform': 'rotate(' + degree + 'deg)'
-            });
-        }
-
-
-        var x = $arrow.offset().left + $arrow.width();
-        var y = $arrow.offset().top;
-
-        $('#device').on('mousemove', function(e) {
-            var x1 = e.pageX;
-            var y1 = e.pageY;
-
-            var angleDeg = Math.atan2(y1 - y, x1 - x) * 180 / Math.PI;
-            angleDeg *= -1;
-
-            var angle = 180-angleDeg;
-            if( angle <= 40 ) {
-                rotate(40);
-            }
-            else if( angle >= 148 ) {
-                rotate(148);
-            }
-            else {
-                rotate(angle);
-            }
-
-        });
-    });
-
-
-</script>
 
     <div class="container">
         <div class="row">
@@ -86,41 +41,41 @@
             <section id="marketing-text">
                 <div class="col-md-12 col-sm-12">
                     <h1>Пиздецометр</h1>
-                    <h3>Потому что нам не все равно!</h3>
+                    <h3>Потому что нам <span class="strikethrough">не</span> все равно!</h3>
                 </div><!--12-->
             </section><!--/marketing-text-->
         </div>
         <div class="row">
 
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p class="text-p">
-                    Это сайт для людей, страдающих легкой формой душевного эксгибиционизма, а также для нытиков и неудачников.
+                    <span class="label label-info">info</span> Это сайт для людей, страдающих легкой формой душевного эксгибиционизма, а также для нытиков и неудачников.
                 </p>
                 <p class="text-p">
-                    На работе дедлайн? Жена - злобная сука? Теща ест мозги? Теперь есть легкий и веселый способ пожаловаться друзьям на все это,
+                    На работе дедлайн? Жена - злобная сука? Разбил машину? Муж изменил с подругой? Теперь есть легкий и веселый способ пожаловаться друзьям на все это,
                     не вдаваясь в скучные и длинные подробности вашей унылой жизни! Просто укажите на приборе нужные уровень и понажимайте
                     там внизу на всякие кнопочки шаринга. И пусть весь мир узнает!
                 </p>
                 <p class="text-p">
-                    Если у вас в жизни все прекрасно, вы тоже можете воспользоваться сайтом и в очередной раз рассказать этим мелким людишкам
+                    <span class="label label-warning">warning</span> Если у вас в жизни все прекрасно, вы тоже можете воспользоваться сайтом и в очередной раз рассказать этим мелким людишкам
                     о вашей прекрасной жизни на персональной яхте с красавицами.
                 </p>
                 <p>
-                    <strong>P.S.</strong> Не ищите здесь смысла, это просто еще одна форма увеличения Вселенской Энтропии.
+                    <strong>P.S.</strong> Не ищите здесь смысла, это просто еще один способ увеличения Вселенской Энтропии.
                 </p>
             </div>
 
-            <div id="device" class="device col-md-6 col-md-offset-1">
+            <div id="device" class="device col-md-5 col-md-offset-1">
 
-                <label class="label label-success device-label label0">заебись</label>
-                <label class="label label-primary device-label label1">ништяк</label>
-                <label class="label label-primary device-label label2">чотко</label>
-                <label class="label label-primary device-label label3">чотенько</label>
-                <label class="label label-warning device-label label4">ровно</label>
-                <label class="label label-warning device-label label5">херовато</label>
-                <label class="label label-danger device-label label6">пиздец</label>
-                <label class="label label-danger device-label label7">пиздец<sup>2</sup></label>
-                <label class="label label-danger device-label label8">полный пиздец</label>
+                <label id="label_0" data-number="0" data-fixed="false" class="label label-success device-label label0">заебись</label>
+                <label id="label_1" data-number="1" data-fixed="false" class="label label-primary device-label label1">ништяк</label>
+                <label id="label_2" data-number="2" data-fixed="false" class="label label-primary device-label label2">чотко</label>
+                <label id="label_3" data-number="3" data-fixed="false" class="label label-primary device-label label3">четенько</label>
+                <label id="label_4" data-number="4" data-fixed="false" class="label label-warning device-label label4">ровно</label>
+                <label id="label_5" data-number="5" data-fixed="false" class="label label-warning device-label label5">херовато</label>
+                <label id="label_6" data-number="6" data-fixed="false" class="label label-danger device-label label6">пиздец</label>
+                <label id="label_7" data-number="7" data-fixed="false" class="label label-danger device-label label7">пиздец<sup>2</sup></label>
+                <label id="label_8" data-number="8" data-fixed="false" class="label label-danger device-label label8">полный пиздец</label>
                     <!--input type="radio" name="pizdec" class="radio0"/>
                     <!--input type="radio" name="pizdec" class="radio1"/>
                     <input type="radio" name="pizdec" class="radio2"/>
@@ -138,7 +93,7 @@
 
         <div class="row">
             <div class="col-md-offset-9">
-                <button class="btn btn-lg btn-theme device-share">Рассказать!</button>
+                <button class="btn btn-lg btn-theme device-share"><span class="glyphicon glyphicon-share-alt"></span> Рассказать!</button>
             </div>
         </div>
     </div>

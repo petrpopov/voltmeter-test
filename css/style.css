@@ -5,9 +5,37 @@
     line-height: 1.428;
 }
 
-h3 {
+.strikethrough {
+    position: relative;
+}
+
+.strikethrough:before {
+    border-bottom: 5px solid #e74c3c;
+    position: absolute;
+    content: "";
+    width: 130%;
+    height: 50%;
+    opacity: 0.9;
+
+    left: -20%;
+    top: 15%;
+
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-45);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#marketing-text h1 {
+    margin-bottom: 5px;
+}
+
+#marketing-text h3 {
+    margin-top: 0px;
     color: #c8c8c8;
 }
+
 
 hr {
     color: #86878c;
@@ -27,9 +55,19 @@ hr {
     position: relative;
 }
 
+.device-share {
+    margin-top: 2%;
+}
+
 .device-label {
     float: left;
     position: absolute;
+    opacity: 0.7;
+}
+
+.label-selected {
+    border: 2px solid #1f234b;
+    opacity: 1;
 }
 
 .label0 {
@@ -132,14 +170,14 @@ hr {
 }
 
 .arrow {
-    width: 220px;
+    width: 200px;
     height: 2px;
     background: #be0005;
 
     float: left;
     position: absolute;
 
-    left: 15%;
+    left: 18%;
     top: 88%;
 
     transform-origin:100% 40%;
